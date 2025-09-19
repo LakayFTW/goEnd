@@ -1,0 +1,13 @@
+{{ define "layout" }}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ .Title }}</title>
+    <link href="/css/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-neutral-600 text-white">
+    {{ template "content" . }}
+  </body>
+</html>
+{{ end }}
