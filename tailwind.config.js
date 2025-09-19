@@ -7,7 +7,15 @@ module.exports = {
     "./src/**/*.go",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        text: "#f6eddc",
+        background: "#0c0903",
+        primary: "#e2c28a",
+        secondary: "#228c5e",
+        accent: "#5ab8d7",
+      },
+    },
   },
   plugins: [],
 };
